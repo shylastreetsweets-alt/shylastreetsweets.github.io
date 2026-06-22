@@ -1,52 +1,185 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shyla Street Sweets</title>
+
 <style>
-body{font-family:Arial,sans-serif;margin:0;background:#fffaf7;color:#333}
-header{background:#f7d7df;padding:40px;text-align:center}
-h1{margin:0}
-section{padding:30px;max-width:900px;margin:auto}
-.card{background:white;padding:20px;margin:15px 0;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
-.btn{display:inline-block;background:#f2a7b8;color:white;padding:12px 18px;border-radius:8px;text-decoration:none}
-footer{background:#f7d7df;text-align:center;padding:20px}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#fff7fa;
+color:#333;
+}
+
+header{
+background:linear-gradient(to right,#ffd6e7,#fff0f6);
+text-align:center;
+padding:50px 20px;
+}
+
+.logo{
+width:250px;
+max-width:90%;
+}
+
+h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+.tagline{
+font-size:1.3rem;
+color:#ff4f95;
+font-weight:bold;
+}
+
+.button{
+display:inline-block;
+margin:10px;
+padding:14px 24px;
+background:#ff4f95;
+color:white;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+}
+
+section{
+padding:50px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:30px;
+color:#ff4f95;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+margin-bottom:20px;
+}
+
+footer{
+background:#ffd6e7;
+text-align:center;
+padding:25px;
+}
 </style>
 </head>
+
 <body>
+
 <header>
+
+<img src="IMG_4546.png" class="logo">
+
 <h1>Shyla Street Sweets</h1>
-<p>Homemade Treats Made with Love</p>
-<a class="btn" href="#order">Order Now</a>
+
+<p class="tagline">
+Homemade Treats Made With Love
+</p>
+
+<a class="button"
+href="https://www.instagram.com/shyla.streetsweets">
+Order on Instagram
+</a>
+
+<a class="button"
+href="mailto:shylastreetsweets@gmail.com">
+Email Your Order
+</a>
+
 </header>
 
 <section>
-<div class="card">
-<h2>Our Treats</h2>
-<ul>
-<li>Chocolate Covered Strawberries</li>
-<li>Strawberry Crunch Cookies</li>
-<li>Banana Pudding</li>
-<li>Mini Loaf Cakes</li>
-</ul>
+
+<h2 class="section-title">Featured Treats</h2>
+
+<div class="gallery">
+
+<img src="IMG_3293.jpeg">
+
+<img src="IMG_3294.jpeg">
+
+<img src="IMG_4351.png">
+
+<img src="IMG_4352.png">
+
 </div>
 
+</section>
+
+<section>
+
+<h2 class="section-title">Payment Options</h2>
+
 <div class="card">
-<h2>About Us</h2>
-<p>Welcome to Shyla Street Sweets! We specialize in delicious homemade desserts for events, gifts, and sweet cravings.</p>
+
+<h3>Accepted After Approval</h3>
+
+<p><strong>Cash App:</strong> $ShylaStreetSweets</p>
+
+<p><strong>Apple Pay:</strong> 860-518-2158</p>
+
 </div>
 
-<div class="card" id="order">
-<h2>Place an Order</h2>
-<p>Message us on Instagram or email us to place your order.</p>
-<p><strong>Instagram:</strong> @shyla.streettreats</p>
-<p><strong>Email:</strong> yourbusiness@email.com</p>
+</section>
+
+<section>
+
+<h2 class="section-title">Upcoming Pop-Up Event</h2>
+
+<div class="card">
+
+<h3>June 19–20, 2026</h3>
+
+<p>Chesley Park • New Britain, Connecticut</p>
+
 </div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="card">
+
+<p><strong>Phone:</strong> 860-518-2158</p>
+
+<p><strong>Email:</strong> shylastreetsweets@gmail.com</p>
+
+<p><strong>Instagram:</strong> @shyla.streetsweets</p>
+
+</div>
+
 </section>
 
 <footer>
-<p>© 2026 Shyla Street Sweets</p>
+
+<p>© Shyla Street Sweets • Sweet Treats Made With Love</p>
+
 </footer>
+
 </body>
 </html>
